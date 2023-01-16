@@ -1,0 +1,29 @@
+.prices-repeater {
+	padding: .5em 1em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .75em;
+}
+.radio-wrapper {
+	display: flex; 
+	gap: 1em; 
+	font-size: 18px; 
+	font-family: 'Inter', sans-serif;
+	border: 1px solid #ccc;
+	padding: .5em 1em;
+	width: 100%;
+	border-radius: .5em;
+}
+
+.radio-url, .btn-redirect {
+	background-color: #002aff;
+	color: white;
+	width: 100%;
+	border-radius: .5em;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-redirect {
+	padding: .75em 1em;
+}
